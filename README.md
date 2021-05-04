@@ -1,2 +1,2 @@
 # Fiver-WhaleWisdom
-Repository for a provided cloud based solution for freelancing project called Integration of WhaleWisdom API
+Repository to provided Cloud based solution for the freelancing project called Integration of WhaleWisdom API
