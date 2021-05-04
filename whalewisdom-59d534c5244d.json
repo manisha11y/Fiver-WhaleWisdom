@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "whalewisdom",
+  "private_key_id": "59d534c5244d35d989cbbdaecbcfb013c8b83093",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQCsOpiOXU4te25Y\nHL2g7HWx30sgNl1/qfW8r3VW1+OjgmOTY96s6oLKumT+i3qZPSwP5owDLW0TRDDe\nCE9Z7VafhzYycv/OlsgR9WCIxK3yIgry2Tw1JdPMIYS/vG2DcJwOxGC/mquE6Jfe\nU3YjWG7x+GFlHAs4bJc5QdmoQs8YgOvKRfZhbx+X+PHdmFFjhEMomumhYKikavYV\n6mLHJ/3VYmO+3b1QHE40Tf791GfQP5zHWRoAFNzTHVrOJDiEM8be5BBpzg3X37V4\nukaMw/oMLftOomPfslNujQ1mxLnaiqrfM2ReER6CM/n5cu7LLKZUOnH6/i0S1krG\nz5r3RxwJAgMBAAECggEABdQt2ZOa07s7rsu6NzoJea2e80Yjv/BWmr4tcHT6BUyi\nZhiZLqz5JDdOt7asvYbueNNKpcjhyiciqEELvnVj2x5OXUK7GZjMyJ7PV5GgeXNh\nf3qOqRXQpzXzMjIEWtBy16UZySJI78SXbzTP6L5Tcuj/EtbyIkS6kXuDDEjGjYOx\nLQTCvGD60qsZQKOA4Fy1PQTFaJcbxjWKAFPp6n0UJIzbxXZ6Y34ItdorqSHDNJdM\njtpt6bFVGXW3To01HKatG3GMhhy6FViA1Bbx5SsM7Ac1Yd4SQ/uelvow8j+GODpK\nor2u2uj7bqw9FInlAeKDXZZBrAGcRGQJBDjL6GKTSQKBgQDo+hWGth+XqBGLY3aU\n+qf2DYJhdqgn2ieR9X++ZpJV6Y/gUHGuuxfwU1ordnK/GNBbxR+sO/UHg7JB+Oki\nyqEFpOhsMnFGXTOPWuqzWmiRakdUCl2s73NRxJsaRvM38PvFV5eWlFDMlhvWgYw5\nYidHhhVqUVPCBa6Ic2tCMcunlwKBgQC9P7EKqUQUyg4wuNUnTato1okhv41LUHWw\njLCO3ORMjUs0coxkOgSS/Bb4UAv6n5mYeputdqZSGjs5lMR5AHcVAdA/YP/1o3aT\nAPtvom97NLMDelkDVvuJGONqaslfxt+XKAEwSaeUrKbTRxTtwqRGGA5+SJDDdmH/\nsvsRxIDNXwKBgQDVL9L23Dz4h8DWLgPau6tqil4eVXf2T7gZ5e4pCq8pknonpzT/\n0RBMx9khIFhL6abv8ufSsWK8p5Q8rkqXnZfPFGHicB4bZznBGk7eJAK/3eK7Umj5\n0HtT/XZ4iygQrqGUqVx7W+i77Tg4B3+LGvgaiOWbziO4zX4yOnuRrQNQrQKBgQCy\nZ9aorEVIK+sQt04KTUgn/wcrz36N333zP845/7chC5o4CTycR62EOy4UTLHeRJLx\nkbQs5MuKXrwyXjKRt4SLQzhkZzclBEKF9skRxlm+FkIkJzS+10MtTU8mRSEtrzed\nMdNdCDJ5EAH87uel9HYUth0Do7kE6xcbjEjvyQV7lQKBgQCUXBKLrUofT/q/KkWb\nPnW4I3py7o3kAWT8c/jVb0BVJgaROZUCkXYr90o1uE9ed11HSkfUwyWPnpLuK4+T\na/Q6akG9tLfiDo8LKscgLu3zBDmFP59ze44Gbq4L2LIYLoRIKTtStD35M/uGyRfW\nshFFGC34dEGGDh/5VUM6IgI6tQ==\n-----END PRIVATE KEY-----\n",
+  "client_email": "development@whalewisdom.iam.gserviceaccount.com",
+  "client_id": "102431225980877686180",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/development%40whalewisdom.iam.gserviceaccount.com"
+}
