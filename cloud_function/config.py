@@ -15,11 +15,7 @@ class Config():
 
     secret_key = 'LKuMSmJ0Y44rzP4PjKKAE3iOTnbfVaDvyO9yiseL'
     shared_key = 'AE9I6evS7Yhrc9OmxCNY'
-
     project_id = 'whalewisdom'
-
     #bigquery Config
     bg_dataset = "endpoints_data"
-    # bq_schema = [
-
-    # ]
+   
