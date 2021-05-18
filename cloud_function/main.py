@@ -55,30 +55,32 @@ class GCPIntegration():
             )
         )
 
-    def main(self, context=None):
-        gcp_integration = GCPIntegration()
+def main(event, context=None):
+    gcp_integration = GCPIntegration()
 
-        for json_args in Config.endpoint_args_list:
+    for json_args in Config.endpoint_args_list:
 
-            bq_table = json.loads(json_args)["command"]
-            response_file = bq_table + ".json"
+        bq_table = json.loads(json_args)["command"]
+        response_file = bq_table + ".json"
 
-            response_json, status_code = gcp_integration.call_to_api(
-                json_args, bq_table)
+        response_json, status_code = gcp_integration.call_to_api(
+            json_args, bq_table)
 
+        try:
             if status_code == 200:
                 with open(response_file, "w") as outfile:
                     for item in next(iter(response_json.values())):
                         json.dump(item, outfile)
                         outfile.write('\n')
-                try:
-                    gcp_integration.load_to_bigquery(bq_table, response_file)
-                except Exception as e:
-                    print("Error loading the records in {} table : {}".format(bq_table, e))
-            # else:
-            #     print('{} Error while calling {} endpoint'.format(
-            #         status_code, bq_table))
+                
+                # gcp_integration.load_to_bigquery(bq_table, response_file)
+        except Exception as e:
+                print("Error while loading the records in {} table : {}".format(bq_table, e))
+        # else:
+        #     print('{} Error while calling {} endpoint'.format(
+        #         status_code, bq_table))
 
 
-gcp_integration = GCPIntegration()
-gcp_integration.main()
+# gcp_integration = GCPIntegration()
+# gcp_integration.main()
+main(None)
